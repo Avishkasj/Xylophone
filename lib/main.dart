@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() {
   return runApp(
@@ -6,9 +7,10 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.redAccent,
         appBar: AppBar(
-          title: Text('Xylophone'),
+          title: Text('Dicee Roll'),
           backgroundColor: Colors.red,
         ),
+
       ),
     ),
   );
